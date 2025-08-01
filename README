@@ -1,0 +1,77 @@
+# 🍔 CraveCave – Online Food Ordering Website
+
+Welcome to **CraveCave**, a full-stack web application that allows users to explore, filter, and order delicious food online from various restaurants. This project was built using **PHP**, **MySQL**, **HTML**, **CSS**, and **JavaScript** as part of an academic web development project.
+
+![CraveCave Banner](https://LogoImage.jpg) <!-- Replace with your own hosted image if needed -->
+
+---
+
+## 🚀 Features
+
+- 🔐 **User Authentication** (Admin, Restaurant Manager, Customer)
+- 🍱 **Food Categories & Dynamic Filtering**
+- 🛒 **Add to Cart** & Place Orders (Cash on Delivery)
+- 🧾 **Order Summary and Management**
+- 🧑‍🍳 **Restaurant Panel** – Manage menu, view orders
+- 📊 **Admin Dashboard** – Manage users, restaurants, and food items
+- 📱 **Mobile-Friendly UI** with custom styling and animations
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer        | Technologies                    |
+|-------------|----------------------------------|
+| Frontend     | HTML, CSS, JavaScript            |
+| Backend      | PHP (Core PHP – Procedural)      |
+| Database     | MySQL                            |
+| Server       | XAMPP (Apache, MySQL)            |
+
+---
+
+## 📂 Project Structure
+
+/foodorderr
+├── admin/ # Admin dashboard
+├── images/ # Image assets
+├── restaurant/ # Restaurant manager panel
+├── user/ # Customer pages (login, menu, cart)
+├── includes/ # Database connections and utilities
+├── css/ # Stylesheets
+├── js/ # JavaScript files
+├── index.php # Homepage
+└── README.md
+
+
+
+---
+
+
+
+## 💡 How to Run Locally
+
+1. Download or clone this repo:
+   ```bash
+   git clone https://github.com/yourusername/foodorderr.git
+2.Move the folder to your XAMPP htdocs directory.
+
+3. Start Apache and MySQL in XAMPP control panel.
+
+4. Import the SQL file into phpMyAdmin:
+      Database Name: foodorder
+      Import → foodorder.sql from /db or root
+
+5. Open your browser:
+     http://localhost/foodorderr/
+
+
+🎯 Future Enhancements
+✅ Email confirmation on order
+
+✅ PDF receipt generation
+
+🔜 Online payment gateway integration
+
+🔜 User ratings & feedback
+
+🔜 Coupon and promo code system
